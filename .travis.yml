@@ -6,6 +6,8 @@ node_js:
  # - 0.8
   #- 5.0
   - 0.8
+env:
+  CITY:'PUNE'
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
