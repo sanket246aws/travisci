@@ -7,7 +7,10 @@ node_js:
   #- 5.0
   - 0.8
 env:
-  - CITY:'PUNE'
+    global:
+      - CITY:'PUNE'
+      - AWS_BUCKET=$TRAVIS_BRANCH
+      - AWS_REGION=$TRAVIS_BRANCH
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
